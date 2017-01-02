@@ -28,6 +28,12 @@
     "helmet#noSniff": {},
     "helmet#noCache": {
       "enabled": false
+    },
+    "./middleware/interceptPerson": {
+      "name": "Person Interceptor",
+      "enabled": true,
+      "methods": ["GET"],
+      "paths": "/persons"
     }
   },
   "session": {},
