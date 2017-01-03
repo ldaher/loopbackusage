@@ -1,6 +1,8 @@
 module.exports = function(){
     return function interceptorPerson(req, res, next){
-        console.log(req);
+        if(!req.hasOwnProperty('surName')){
+            req.surName = "Daher";
+        }
         next();
     }
 }

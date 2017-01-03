@@ -38,7 +38,13 @@
   },
   "session": {},
   "auth": {},
-  "parse": {},
+  "parse": {
+    "./middleware/bodyParsing": {
+      "name": "Body Parsing",
+      "methods": ["GET", "POST"],
+      "paths": "/persons"
+    }
+  },
   "routes": {
     "loopback#rest": {
       "paths": [
