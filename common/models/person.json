@@ -1,6 +1,6 @@
 {
   "name": "person",
-  "plural": "persons",
+  "plural": "people",
   "base": "Model",
   "idInjection": true,
   "options": {

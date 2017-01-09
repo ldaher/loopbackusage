@@ -33,7 +33,7 @@
       "name": "Person Interceptor",
       "enabled": true,
       "methods": ["GET"],
-      "paths": "/api/persons"
+      "paths": "/api/people"
     }
   },
   "session": {},
@@ -42,7 +42,7 @@
     "./middleware/bodyParsing": {
       "name": "Body Parsing",
       "methods": ["GET", "POST"],
-      "paths": "/api/persons"
+      "paths": "/api/people"
     }
   },
   "routes": {
